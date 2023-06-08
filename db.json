@@ -1,0 +1,61 @@
+{
+  "maxUserId": 3,
+  "maxPostId": 1,
+  "maxCommentId": 0,
+  "users": [
+    {
+      "id": 0,
+      "username": "deneme",
+      "password": "123456"
+    },
+    {
+      "id": 1,
+      "username": "Öykü Atak",
+      "password": "$2b$10$CNJ552LqHykTzXevRahQm.CCw0g5JNyXU0KsF3ojcjwHSNC/Ltw3O",
+      "email": "oykatak@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "ramazan akdağ",
+      "password": "$2b$10$Tdrs45HofQQnQBzqn2PPo.hYl1QeySNSd5avabNKNjFT07uPQIfke",
+      "email": "akdagramazan586@gmail.com"
+    },
+    {
+      "id": 3,
+      "username": "rozerin akdağ",
+      "password": "$2b$10$MMRH7iWZDkehEHrPHXiQNOdw7JyAgM46k0RajF5OGlGKtnkoNslYG",
+      "email": "akdagramazan586@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 0,
+      "title": "deneme",
+      "content": "Bu birinci blog yazısının içeriğidir.",
+      "authorId": 1,
+      "category": "Teknoloji"
+    },
+    {
+      "id": 1,
+      "title": "yılanlar makalesii",
+      "content": "Aslanlar, hepimizin bildiği haliyle her şeyden önce liderlik, güç, kudret, hükümdarlık, asalet ve cesaret sembolüdürler. Daha derine inildiğinde aslan sembolü genellikle yüksek idare mekanizmasının hükümdarlığını, egemenliğini, iktidarını, kudretini ve yeryüzündeki icra gücünü simgelemektedir. Eski Mısır’da ise Tanrı Ra’nın ilahi irade temsilidir. Çin Budizminde aslanların insanları hayalet ve şeytanlardan koruduğuna inanılır. Totem hayvanınızı aslan olarak seçtiyseniz alışılmadık bir gücü ve canlılığı, hayatta kalabilme yetilerinizin ne kadar yüksek olduğunu size hatırlatacaktır",
+      "authorId": 1,
+      "category": "Güncel",
+      "comments": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Teknoloji"
+    },
+    {
+      "id": 2,
+      "name": "Seyahat"
+    },
+    {
+      "id": 3,
+      "name": "Güncel"
+    }
+  ]
+}
