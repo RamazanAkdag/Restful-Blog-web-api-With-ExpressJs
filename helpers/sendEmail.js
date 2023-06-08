@@ -5,8 +5,8 @@ const sendEmail = async (email, subject, message) => {
     const transporter = nodemailer.createTransport({
       service: "Gmail",
       auth: {
-        user: "akdagramazan586@gmail.com", // Gönderen e-posta adresi
-        pass: "funcupkagcjxanug", // Gönderen e-posta şifresi
+        user: "yourEmail@gmail.com", // Gönderen e-posta adresi
+        pass: "yourpass", // Gönderen e-posta şifresi
       },
       tls: {
         rejectUnauthorized: false,
@@ -15,7 +15,7 @@ const sendEmail = async (email, subject, message) => {
 
     // E-posta gönderim seçeneklerini ayarlayın
     const mailOptions = {
-      from: "akdagramazan586@gmail.com", // Gönderen e-posta adresi
+      from: "yourEmail@gmail.com", // Gönderen e-posta adresi
       to: email, // Alıcı e-posta adresi
       subject: subject, // E-posta konusu
       text: message, // E-posta metni
